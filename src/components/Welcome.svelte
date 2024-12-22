@@ -1,7 +1,7 @@
----
-import astroLogo from '@/assets/astro.svg';
-import background from '@/assets/background.svg';
----
+<script lang="ts">
+	import astroLogo from '@/assets/astro.svg';
+	import background from '@/assets/background.svg';
+</script>
 
 <div id="container">
 	<img id="background" src={background.src} alt="" fetchpriority="high" />
